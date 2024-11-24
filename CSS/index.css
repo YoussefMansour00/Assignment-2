@@ -1,0 +1,22 @@
+#Heading{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 2rem;
+}
+
+button{
+    padding: 1rem 2rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: black;
+        color: #fff;
+    }
+}
